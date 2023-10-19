@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,form button,select,text,
+ul li{
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+body,iput,textarea{
+    font-family: 'Roboto', sans-serif
+}
+/* Header */
+header{
+    background-color: rgba(0, 0, 0, 0.966);
+    padding: 1rem;
+}
+
+
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: red;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: red;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 2rem;
+    font-size: 18px;
+}
+
+
+  /* Sobre */
+
+section .container{
+    padding: 1.25rem;
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#about{
+    padding:  0.625rem;
+    margin: 0 1.25rem;
+}
+
+#about p{
+    margin-top: 1rem;
+}
+
+#about li{
+    display: inline;
+}
+
+#about img{
+    margin-top: 8px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+section form input,
+button,textarea{
+    padding: 20px;
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+}
+
+form input:focus,
+textarea:focus{
+outline-color: red;
+}
+
+textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: black;
+    color: red;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgba(31, 29, 29, 0.959);
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links  li{
+    display: inline;
+    margin-right: 8px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.966);
+    padding: 2.25rem;
+    color: red;
+}
+
+footer div{
+    width: 1280px;
+    margin: 0 auto;
+}
